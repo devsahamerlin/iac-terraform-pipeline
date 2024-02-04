@@ -5,7 +5,7 @@ resource "google_storage_bucket" "terraform-bucket" {
 }
 
 resource "google_compute_instance" "web-server" {
-  machine_type = "e2.micro"
+  machine_type = "e2-micro"
   name         = "web-server"
   zone         = "${var.gcp_region}-c"
 
