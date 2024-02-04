@@ -8,17 +8,17 @@ terraform {
     }
   }
 
-#  backend "local" {
-#    path = "terraform/state/local.tfsate"
-#  }
+  #  backend "local" {
+  #    path = "terraform/state/local.tfsate"
+  #  }
 
-#  backend "gcs" {
-#    bucket = "tf-bs-bucket"
-#    prefix = "env/test"
-#  }
+  #  backend "gcs" {
+  #    bucket = "tf-bs-bucket"
+  #    prefix = "env/test"
+  #  }
 
   backend "remote" {
-    hostname = "app.terraform.io"
+    hostname     = "app.terraform.io"
     organization = "devsahamerlin"
     workspaces {
       name = "iac-terraform-pipeline"
