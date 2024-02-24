@@ -17,7 +17,7 @@ resource "aws_vpc" "vpc" {
   cidr_block = var.vpc_cidr_block
 
   tags = {
-    Name = "web-server-vpc"
+    Name = "${var.server_name}-vpc"
   }
 }
 
