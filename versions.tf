@@ -6,6 +6,11 @@ terraform {
       source  = "hashicorp/google"
       version = "5.14.0"
     }
+
+    aws = {
+      source  = "hashicorp/aws"
+      version = "5.38.0"
+    }
   }
 
   #  backend "local" {
