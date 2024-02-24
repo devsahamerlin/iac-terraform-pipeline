@@ -10,7 +10,7 @@ data "aws_ami" "ubuntu" {
     name   = "virtualization-type"
     values = ["hvm"]
   }
-  owners = ["099720109477"]
+  owners = [var.aws-owners]
 }
 
 resource "aws_vpc" "vpc" {
