@@ -1,4 +1,8 @@
 ```shell
+
+Video Terraform et Google Cloud Platform: https://www.youtube.com/watch?v=JRdJJsiD0QU 
+video Multi-Cloud IaC - Terraform Cloud, AWS, Google Cloud Platform: https://www.youtube.com/watch?v=dv_DuJU8R-I
+
 # Activate SA
 gcloud auth activate-service-account <service-account> --key-file="/key-path"
 
