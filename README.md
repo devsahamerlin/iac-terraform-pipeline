@@ -1,5 +1,6 @@
-- Video Terraform Cloud et Google Cloud Platform: https://www.youtube.com/watch?v=JRdJJsiD0QU
-- Video Multi-Cloud IaC - Terraform Cloud, AWS, Google Cloud Platform: https://www.youtube.com/watch?v=dv_DuJU8R-I
+- Multi-Cloud IaC - Terraform Cloud, Azure AWS, Google Cloud Platform: https://www.youtube.com/watch?v=p6hGNs6_Gfo&list=PLB1JwWIio9JO2ZXpufbRmUaMThSIU1zxc&index=2
+
+![Terraform-multi-cloud.svg](images%2FTerraform-multi-cloud.svg)
 
 ```shell
 # Activate SA
